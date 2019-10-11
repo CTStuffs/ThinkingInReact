@@ -1,10 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ProductInventoryMain from "./components/ProductInventoryMain";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
+  return <ProductInventoryMain />;
+}
+
+/*
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,8 +22,6 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
+  */
 
 export default App;
